@@ -1,0 +1,68 @@
+body{
+    font-family: 'Raleway', 'Verdana', sans-serif;
+    background-image: url();
+    color: black;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;  
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+}
+.input{
+    background-color: rgba(255, 255, 255, 0.45);
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.e{
+    background: rgba(255, 255, 255, 0.11);
+    margin-top: 20px;
+    margin-left: -15px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    font-weight:600;
+    font-size: 85px;
+}
+
+button {
+    padding: 10px 35px;
+    overflow: hidden;
+}
+
+button {
+    font-family: 'Raleway','Verdana';
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border: none;
+    background: cadetblue;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+select{
+    font-family: 'Raleway','Verdana';
+    font-size: 20px;
+    padding: 5px;
+}
+#B:before {
+         font-family: FontAwesome;
+         content:"\f061";
+         position: absolute;
+         top: 11px;
+         left: -30px;
+         transition: all 200ms ease;
+    }
+
+#B:hover:before {
+    left: 7px;
+}
+
